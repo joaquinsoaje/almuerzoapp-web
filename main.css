@@ -1,0 +1,29 @@
+#almuerzoPage {
+    display: flex;
+}
+
+#meals, #orders {
+    background-color: #fff;
+    flex-grow: 1;
+    font-family: monospace;
+    line-height: 22px;
+}
+
+#meals {
+    margin-right: 10px;
+}
+
+#meals-list, #orders-list {
+    list-style-type: none;
+}
+
+#submit {
+    background-color: #2a91bd;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    display: block;
+    margin: 15px auto;
+    padding: 10px 15px;
+
+}
