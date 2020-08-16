@@ -13,8 +13,14 @@
     margin-right: 10px;
 }
 
-#meals-list, #orders-list {
+#meals-list li:not(.selected), #orders-list {
     list-style-type: none;
+}
+
+#meals-list li {
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: max-content;
 }
 
 #cargando {
@@ -34,4 +40,8 @@
 
 #submit:disabled {
     background-color: #ccc;
+}
+
+.selected {
+    background-color:#ecece9;
 }
