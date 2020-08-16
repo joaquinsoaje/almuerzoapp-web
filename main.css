@@ -17,6 +17,11 @@
     list-style-type: none;
 }
 
+#cargando {
+    font-weight: bold;
+    line-height: 2px;
+}
+
 #submit {
     background-color: #2a91bd;
     color: #fff;
@@ -25,5 +30,8 @@
     display: block;
     margin: 15px auto;
     padding: 10px 15px;
+}
 
+#submit:disabled {
+    background-color: #ccc;
 }
